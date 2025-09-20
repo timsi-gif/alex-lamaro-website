@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алекс Ламаро - Портфоліо</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: system-ui, sans-serif; line-height: 1.6; }
+        .hero { min-height: 100vh; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); display: flex; align-items: center; justify-content: center; text-align: center; padding: 2rem; }
+        .container { max-width: 800px; }
+        .avatar { width: 150px; height: 150px; background: linear-gradient(45deg, #fb923c, #06b6d4); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem; box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .avatar-inner { width: 135px; height: 135px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 48px; font-weight: bold; color: #374151; }
+        h1 { font-size: clamp(3rem, 8vw, 5rem); color: #111827; margin-bottom: 1rem; font-weight: 800; }
+        .gradient-text { background: linear-gradient(45deg, #fb923c, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .subtitle { font-size: clamp(1.2rem, 4vw, 1.8rem); color: #6b7280; margin-bottom: 3rem; }
+        .buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem; }
+        .btn { background: linear-gradient(45deg, #fb923c, #ea580c); color: white; padding: 15px 30px; border: none; border-radius: 50px; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 15px 35px rgba(251, 146, 60, 0.4); }
+        .btn-outline { background: transparent; border: 2px solid #d1d5db; color: #374151; }
+        .btn-outline:hover { border-color: #fb923c; color: #fb923c; box-shadow: 0 15px 35px rgba(251, 146, 60, 0.2); }
+        .contact { color: #6b7280; font-size: 1.1rem; }
+        .about { padding: 6rem 2rem; background: white; }
+        .about-container { max-width: 1200px; margin: 0 auto; text-align: center; }
+        .about h2 { font-size: 3rem; color: #111827; margin-bottom: 3rem; }
+        .skills { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-top: 3rem; }
+        .skill { background: linear-gradient(45deg, #fef7ed, #ecfdf5); padding: 12px 24px; border-radius: 25px; color: #374151; border: 1px solid #fed7aa; }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="avatar">
+                <div class="avatar-inner">AL</div>
+            </div>
+            <h1>Алекс <span class="gradient-text">Ламаро</span></h1>
+            <p class="subtitle">Творчий професіонал, який створює інноваційні рішення та втілює ідеї в життя</p>
+            
+            <div class="buttons">
+                <a href="#about" class="btn">
+                    Переглянути роботи →
+                </a>
+                <a href="#" class="btn btn-outline">
+                    ⬇ Завантажити CV
+                </a>
+            </div>
+            
+            <div class="contact">
+                📧 alex.lamaro@email.com
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <h2>Про мене</h2>
+            <p style="font-size: 1.3rem; color: #6b7280; max-width: 700px; margin: 0 auto;">
+                Я - пасіонатний професіонал, який поєднує технічні навички з творчим підходом 
+                для створення унікальних та ефективних рішень
+            </p>
+            
+            <div class="skills">
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Node.js</span>
+                <span class="skill">Python</span>
+                <span class="skill">UI/UX Design</span>
+                <span class="skill">Project Management</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
