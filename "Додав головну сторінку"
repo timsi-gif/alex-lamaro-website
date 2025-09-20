@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алекс Ламаро - Портфоліо</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+        .hero { min-height: 100vh; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); display: flex; align-items: center; justify-content: center; text-align: center; }
+        .avatar { width: 150px; height: 150px; background: linear-gradient(45deg, #fb923c, #06b6d4); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem; }
+        .avatar-inner { width: 140px; height: 140px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 48px; font-weight: bold; color: #374151; }
+        h1 { font-size: 4rem; color: #111827; margin-bottom: 1rem; }
+        .gradient-text { background: linear-gradient(45deg, #fb923c, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        p { font-size: 1.5rem; color: #6b7280; max-width: 600px; margin: 0 auto 2rem; }
+        .btn { background: linear-gradient(45deg, #fb923c, #ea580c); color: white; padding: 15px 30px; border: none; border-radius: 50px; font-size: 18px; cursor: pointer; transition: all 0.3s; }
+        .btn:hover { transform: scale(1.05); box-shadow: 0 10px 25px rgba(251, 146, 60, 0.3); }
+        .contact { margin-top: 2rem; color: #6b7280; }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div>
+            <div class="avatar">
+                <div class="avatar-inner">AL</div>
+            </div>
+            <h1>Алекс <span class="gradient-text">Ламаро</span></h1>
+            <p>Творчий професіонал, який створює інноваційні рішення та втілює ідеї в життя</p>
+            <button class="btn">Переглянути роботи</button>
+            <div class="contact">
+                📧 alex.lamaro@email.com
+            </div>
+        </div>
+    </section>
+</body>
+</html>
